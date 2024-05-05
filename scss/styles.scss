@@ -1,3 +1,5 @@
+@import "utilidades/extend";
+@import "utilidades/variables";
 *{
     margin: 0;
     padding: 0;
@@ -5,12 +7,29 @@
 }
 
 body{
-    background-color: red;
+    color: $color-principal;
+}
+
+header{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    padding: 20px;
+}
+
+.icon{
+  @extend %icon;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
-@import "utilidades/variable";
 
-@import "utilidades/extend"
 
-// hasta 600 px mobile
+@media screen and (min-width: 600px) {}
+@media screen and (min-width: 1024px){}
