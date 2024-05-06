@@ -15,7 +15,13 @@ header{
     grid-template-columns: auto 1fr auto;
     align-items: center;
     padding: 20px;
+    background-color: $color-principal;
 }
+
+.lista{
+    @extend %item;
+}
+
 
 .icon{
   @extend %icon;

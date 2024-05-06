@@ -3,3 +3,11 @@
     height: 100px;
 }
 
+%item{
+    font-family: cursive;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap-reverse;
+}
