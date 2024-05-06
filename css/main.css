@@ -84,6 +84,19 @@ main .texto {
   display: none;
 }
 
+.card-body {
+  background-color: black;
+}
+
+.card-title {
+  padding-top: 20%;
+}
+
+.card-text {
+  color: #c1066f;
+  padding: 10px;
+}
+
 @media screen and (min-width: 600px) {
   main .img-2 {
     display: block;

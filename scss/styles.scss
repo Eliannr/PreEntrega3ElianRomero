@@ -86,8 +86,18 @@ main{
     display: none;
     
 }
+.card-body{
+    background-color: $color-principal;
+    
+}
 
-
+.card-title{
+    padding-top: 20%;
+}
+.card-text{
+    color: $color-secundario;
+    padding: 10px;
+}
 
 
 @media screen and (min-width: 600px) {
